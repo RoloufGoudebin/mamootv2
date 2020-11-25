@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.btn-green:focus, .btn-green:hover, btn-green:active{
+    background-color: #fff !important;
+    color: black;
+    border-color: #ABDDDE;
+}
+
+.btn-green{
+    background-color: #ABDDDE;
+    color: #fff;
+}

@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/css/icon/et-line-font.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mamootv2"
+    }
+  },
+  "defaultProject": "mamootv2",
+  "cli": {
+    "analytics": "958005b4-3d5f-4a78-ae18-38b13a99deb0"
+  }
 }
