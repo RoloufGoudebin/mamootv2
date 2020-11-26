@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
 import { EnvironnementComponent } from './environnement/environnement.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EnvironnementComponent } from './environnement/environnement.component'
     HomeComponent,
     SolutionsComponent,
     ValeursComponent,
-    EnvironnementComponent
+    EnvironnementComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
