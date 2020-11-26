@@ -1,0 +1,66 @@
+.bg-intro {
+    background-image: url("/assets/img/agency_bg.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+
+p .seo{
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+
+.services{
+    margin-top: 6em;
+    font-family: 'Open Sans';
+    margin-bottom: 6em;
+}
+
+.icon-serv{
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.service-title{
+    border-width: 0.1em !important;
+    margin-bottom: 0.5em !important;
+    border-color: #ABDDDE !important;
+}
+
+.about{
+    border-color: #ABDDDE !important;
+}
+
+.bg-about{
+    background-image: url("/assets/img/testbis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 1em;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.about-md{
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+

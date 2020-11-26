@@ -1,0 +1,36 @@
+.valeurs{
+    padding-top: 90px;
+    background-image: url("/assets/img/test6bis.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.valeurs p{
+    font-size: larger;
+    font-weight: 600;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.text-white{
+    color: white;
+}
+
+strong{
+    color: #ABDDDE;
+    font-weight: normal;
+}
+
+hr{
+    border-top: 3px solid #ABDDDE; 
+    width: 50px;
+}
+
+.item{
+    background: rgba(75, 221, 222, 0.30) !important; 
+}

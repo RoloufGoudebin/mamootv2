@@ -1,0 +1,27 @@
+.services{
+    padding-top: 90px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+strong{
+    color: #ABDDDE;
+    font-weight: normal;
+}
+
+hr{
+    border-top: 3px solid #ABDDDE; 
+    width: 50px;
+}
+
+h5{
+    text-align: center;
+}
+
+.btn{
+    font-size: larger;
+    font-weight: 700;
+}

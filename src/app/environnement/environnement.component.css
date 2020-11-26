@@ -1,0 +1,32 @@
+h1{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+strong{
+    color: #ABDDDE;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+}
+
+hr{
+    border-top: 3px solid #ABDDDE; 
+    width: 50px;
+}
+
+h3{
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid #ABDDDE;
+    text-decoration-color: #ABDDDE;
+}
+
+.features-icon{
+    font-size: 3em;
+    color: #ABDDDE;
+}
