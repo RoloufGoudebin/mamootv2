@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'mamootv2';
 
   ngOnInit() {
-  	this.loadScript('../assets/js/jquery.min.js');
+    this.loadScript('../assets/js/jquery.min.js');
   	this.loadScript('../assets/js/jquery-migrate-3.0.1.min.js');
   	this.loadScript('../assets/js/popper.min.js');
   	this.loadScript('../assets/js/bootstrap.min.js');
@@ -22,7 +22,6 @@ export class AppComponent {
   	this.loadScript('../assets/js/jquery.animateNumber.min.js');
   	this.loadScript('../assets/js/scrollax.min.js');
   	this.loadScript('../assets/js/google-map.js');
-    this.loadScript('../assets/js/main.js')
     
 
   }
