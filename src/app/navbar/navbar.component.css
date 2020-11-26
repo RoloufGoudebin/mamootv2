@@ -19,4 +19,8 @@
     color: #ABDDDE;
 }
 
-
+.navbar-brand{
+    font-weight: 800;
+    color: #ABDDDE;
+    font-size: 1.8em;
+}

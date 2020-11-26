@@ -4,12 +4,14 @@ import { HomeComponent } from './home/home.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { ValeursComponent } from './valeurs/valeurs.component';
 import { EnvironnementComponent } from './environnement/environnement.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
   { path: 'solutions', component: SolutionsComponent},
   { path: 'valeurs', component: ValeursComponent},
   { path: 'environnement', component: EnvironnementComponent},
+  { path: 'contact', component: ContactComponent},
   { path: '', component: HomeComponent, pathMatch: 'full' },
 ];
 
