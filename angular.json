@@ -29,7 +29,6 @@
               "src/assets/css/icon/et-line-font.css"
             ],
             "scripts": [
-              "src/assets/js/main.js"
             ]
           },
           "configurations": {
