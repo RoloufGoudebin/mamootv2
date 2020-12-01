@@ -69,5 +69,12 @@ h3{
 }
 
 .text-carou-eco{
-    font-size: 70px;
+    font-size: 45px;
 }
+
+@media screen and (min-width: 768px){
+    .text-carou-eco{
+        font-size: 70px;
+    }
+}
+
