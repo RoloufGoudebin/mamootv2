@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbarr">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid px-lg-5">
         <a class="navbar-brand" href="index.html">Mamoot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
@@ -6,13 +6,15 @@
             <span class="oi oi-menu">Menu</span>
         </button>
 
-        <div class="collapse navbar-collapse" data-toggle="collapse" id="navbar">
+        <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
                 <a class="nav-item" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-                    <a class="nav-link">Home</a>
+                    <a class="nav-link d-none d-lg-block">Home</a>
+                    <a class="nav-link d-lg-none" data-toggle="collapse" data-target="#navbar">Home</a>
                 </a>
                 <a class="nav-item" routerLinkActive="active" routerLink="solutions">
-                    <a class="nav-link">Solutions</a>
+                    <a class="nav-link d-none d-lg-block">Solutions</a>
+                    <a class="nav-link d-lg-none" data-toggle="collapse" data-target="#navbar">Solutions</a>
                 </a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -21,15 +23,19 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="nav-link" routerLinkActive="active" routerLink="valeurs">
-                            <a class="nav-link">Nos valeurs</a>
+                            <a class="nav-link d-none d-lg-block">Nos valeurs</a>
+                            <a class="nav-link d-lg-none" data-toggle="collapse" data-target="#navbar">Nos valeurs</a>
                         </a>
                         <div class="dropdown-divider"></div>
                         <a class="nav-link" routerLinkActive="active" routerLink="environnement">
-                            <a class="nav-link">Mission: Planète x Mamoot </a>
+                            <a class="nav-link d-none d-lg-block">Mission: Planète x Mamoot </a>
+                            <a class="nav-link d-lg-none" data-toggle="collapse" data-target="#navbar">Mission: Planète x Mamoot </a>
                         </a>
                     </div>
                 </li>
-                <a class="nav-item" routerLinkActive="active" routerLink="contact"><a class="nav-link">Contact</a>
+                <a class="nav-item" routerLinkActive="active" routerLink="contact">
+                    <a class="nav-link d-none d-lg-block">Contact</a>
+                    <a class="nav-link d-lg-none" data-toggle="collapse" data-target="#navbar">Contact</a>
                 </a>
             </ul>
         </div>
