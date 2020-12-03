@@ -1,5 +1,5 @@
 .bg-intro {
-    background-image: url("/assets/img/agency_bg.jpg"); 
+    background-image: url("/assets/img/agency_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,18 +8,23 @@
 h1{
     color: white;
     text-transform: uppercase;
-    font-weight: 900;
+    font-size: 45px;
     letter-spacing: 0.2em;
+    font-family: 'Bungee Shade', cursive;
+
 }
 
-p .seo{
+p.seo{
     letter-spacing: 0.2em;
-    font-weight: 500;
+    font-weight: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+
 }
 
 .services{
     margin-top: 6em;
-    font-family: 'Open Sans';
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 6em;
 }
 
@@ -37,6 +42,7 @@ p .seo{
 
 .about{
     border-color: #ABDDDE !important;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .bg-about{
@@ -44,20 +50,33 @@ p .seo{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2{
     font-size: 40px;
     font-weight: 500;
     text-transform: uppercase;
+    font-family: 'Bungee Shade', cursive;
 }
 
 h3{
     margin-top: 1em;
-    font-size: 20px;
+    font-size: 21px;
     font-style: italic;
     font-weight: 400;
+  font-family: 'Open Sans Condensed', sans-serif
+
 }
+
+h4{
+    margin-top: 1em;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif
+
+}
+
 
 .about-md{
     padding-top: 6em;
@@ -65,16 +84,15 @@ h3{
 }
 
 .h_carousel{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .text-carou-eco{
-    font-size: 45px;
+    font-size: 60px;
 }
 
 @media screen and (min-width: 768px){
     .text-carou-eco{
-        font-size: 70px;
+        font-size: 50px;
     }
 }
-
