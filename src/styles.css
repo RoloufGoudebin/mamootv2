@@ -13,11 +13,3 @@ html, body{
     background-color: #ABDDDE;
     color: #fff;
 }
-
-.fade {
-    opacity: 1;
-}
-
-div.hidden {
-    display: none;
-}
