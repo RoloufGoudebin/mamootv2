@@ -6,10 +6,6 @@
     background-size: cover;
 }
 
-.valeurs p{
-    font-size: larger;
-    font-weight: 600;
-}
 
 h1{
     text-transform: uppercase;
@@ -53,6 +49,54 @@ hr{
         transform: translate3d(0,-100%, 0);
 }
 
-h2{
-    font-size: 12px;
+.banner h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+
+.police{
+    font-family: 'Bungee Shade', cursive;
+}
+
+.img-mamoot{
+    padding-bottom: 50%;
+}
+
+
+.bg-primary{
+    background-image: url('/assets/img/code1.png');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+.wincode{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+p{
+    font-size: 15px;
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 3px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1em;
+    color: white;
+    font-family: monospace regular;
+    padding-bottom: 4em;
+}
+
+.chemin{
+    font-weight: 700;
+    color: red;
+    letter-spacing: 0em !important;
+}
+
+.chevrons{
+    color: greenyellow;
 }
