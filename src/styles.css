@@ -18,8 +18,8 @@ html, body{
 
 }
 
-/*c'est bien ça??*/
-.btn-green2:focus, .btn-green:hover, btn-green:active{
+/*c'est bien ça?? bouton de la bande noir*/
+.btn-green2:focus, .btn-green2:hover, btn-green2:active{
     background-color: #fff !important;
     color: black;
     border-color: #ABDDDE;
@@ -27,4 +27,17 @@ html, body{
 .btn-green2{
     background-color: #ABDDDE;
     color: #fff
+}
+
+
+/*pour solution ça*/
+.btn-green3:focus, .btn-green3:hover, btn-green3:active{
+    background-color: #black !important;
+    color: black;
+    opacity: 0.6;
+
+}
+.btn-green3 {
+    color: black;
+
 }
