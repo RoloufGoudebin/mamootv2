@@ -12,4 +12,19 @@ html, body{
 .btn-green{
     background-color: #ABDDDE;
     color: #fff;
+    margin-top: 60px;
+    margin-bottom: -35px;
+
+
+}
+
+/*c'est bien ça??*/
+.btn-green2:focus, .btn-green:hover, btn-green:active{
+    background-color: #fff !important;
+    color: black;
+    border-color: #ABDDDE;
+}
+.btn-green2{
+    background-color: #ABDDDE;
+    color: #fff
 }
