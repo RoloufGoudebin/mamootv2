@@ -1,8 +1,9 @@
 .nav-item > a{
-    margin-left: 2em;
+    margin-left: 2.2em;
     text-transform: uppercase;
-    font-weight: 700;
     color: black;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 0.1em;
 }
 
 .nav-item:hover{
@@ -11,10 +12,11 @@
 
 .nav-link > a{
     color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.navbar .navbar-nav > .active > a, 
-.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
     color: #ABDDDE;
 }
@@ -23,4 +25,5 @@
     font-weight: 800;
     color: #ABDDDE;
     font-size: 1.8em;
+    font-family: 'Bungee Shade', cursive;
 }
