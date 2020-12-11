@@ -1,6 +1,6 @@
 .valeurs{
     padding-top: 90px;
-    background-image: url("/assets/img/test6bis.jpg"); 
+    background-image: url("/assets/img/test6bis.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,6 +11,30 @@ h1{
     text-transform: uppercase;
     text-align: center;
     color: white;
+    font-family: 'Bungee Shade', cursive;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.5em;
+}
+
+p{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+  }
+
+  
+
+.texte-team{
+  background-color: black;
+  color: white;
 }
 
 .text-white{
@@ -22,13 +46,28 @@ strong{
     font-weight: normal;
 }
 
+  #id_rob{
+	background: url("/assets/img/Rob.png");
+  background-size:70%;
+  background-position: left -10px bottom 0px;
+  background-repeat: no-repeat;
+}
+
+#id_thom{
+background: url("/assets/img/thom.png");
+background-size:70%;
+background-position: left -70px bottom 0px;
+background-repeat: no-repeat;
+
+}
+
 hr{
-    border-top: 3px solid #ABDDDE; 
+    border-top: 3px solid #ABDDDE;
     width: 50px;
 }
 
 .item{
-    background: rgba(75, 221, 222, 0.30) !important; 
+    background: rgba(75, 221, 222, 0.30) !important;
 }
 
 .vert .carousel-item-next.carousel-item-left,
