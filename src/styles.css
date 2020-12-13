@@ -4,16 +4,19 @@ html, body{
 }
 
 .btn-green:focus, .btn-green:hover, btn-green:active{
-    background-color: #fff !important;
-    color: black;
-    border-color: #ABDDDE;
+  background-color: white;
+  color:black;
+  border-color: black;
+  box-shadow: -6px 6px 0px black;
+  border-width: 1px;
 }
 
 .btn-green{
-    background-color: #ABDDDE;
-    color: #fff;
+    background-color: #B7E9E7;
+    color: black;
     margin-top: 60px;
     margin-bottom: -35px;
+    box-shadow: -9px -9px 0px #E6F8F7;
 
 
 }
@@ -22,7 +25,7 @@ html, body{
     background-color: white;
     color:black;
     border-color: #fff;
-    box-shadow: -7px -7px 0px #B7E9E7;
+    box-shadow: -7px -7px 0px #E6F8F7;
     border-width: 1px;
 }
 
@@ -30,27 +33,32 @@ html, body{
     background-color: #B7E9E7;
     color: black;
     font-size: 1.2em;
-    border-radius: 0;
       margin-top: 0.7em;
       box-shadow: -7px -7px 0px #E6F8F7;
-      font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
       letter-spacing: 0.7px;
 
     }
 
-/*c'est bien ça?? bouton de la bande noir*/
+/*Home dans bandeau noir*/
 .btn-green2:focus, .btn-green2:hover, btn-green2:active{
-    background-color: #fff !important;
-    color: black;
-    border-color: #ABDDDE;
+  background-color: white;
+  color:black;
+  border-color: #B7E9E7;
+  box-shadow: -9px -9px 0px #B7E9E7;
+  border-width: 1px;
 }
 .btn-green2{
-    background-color: #ABDDDE;
-    color: #fff
+  background-color: #B7E9E7;
+  color: black;
+    margin-top: 1.9em;
+    box-shadow: -9px -9px 0px #E6F8F7;
+    letter-spacing: 0.7px;
+
 }
 
 
-/*pour solution ça*/
+/*pour la page solution */
 .btn-green3:focus, .btn-green3:hover, btn-green3:active{
     background-color: #black !important;
     color: black;
