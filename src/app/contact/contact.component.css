@@ -77,24 +77,37 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 body {
   font-family: 'Lato', sans-serif;
   color: #000000;
+  font-family: 'Quicksand', sans-serif;
 }
+
+.background{
+  background-image:url('/assets/img/mail.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #E2F0FC;
+  }
 
 p {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
   }
 
 header {
   position: relative;
-  margin: 100px 0 25px 0;
+  margin: 50px 0 25px 0;
+  padding-top: 40px;
   font-size: 2.3em;
   text-align: center;
   letter-spacing: 7px;
+  font-family: 'Bungee Shade', cursive;
+
 }
 
 #form {
   position: relative;
   width: 500px;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 0;
+  padding-bottom: 60px;
 }
 
 input {
@@ -104,7 +117,7 @@ input {
   height: 50px;
   padding: 0px 15px 0px 15px;
 
-  background: transparent;
+  background: white;
   outline: none;
   color: #726659;
 
@@ -128,7 +141,7 @@ textarea {
   max-height: 110px;
   padding: 15px;
 
-  background: transparent;
+  background: white;
   outline: none;
 
   color: #726659;
@@ -166,5 +179,5 @@ textarea:hover {
 
 #submit:hover {
   color: #ffffff;
-  background: #b7e9e7;
+  background:  #E2E9FC;;
 }

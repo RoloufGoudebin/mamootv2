@@ -16,9 +16,9 @@ h1{
 
 p.seo{
     letter-spacing: 0.2em;
-    font-weight: 80px;
     font-family: 'Open Sans Condensed', sans-serif;
-
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
 
 }
 
@@ -53,6 +53,12 @@ p.seo{
     font-family: 'Quicksand', sans-serif;
 }
 
+
+.black{
+font-family: 'Quicksand', sans-serif;
+color:#fff;
+}
+
 h2{
     font-size: 40px;
     font-weight: 500;
@@ -70,12 +76,28 @@ h3{
 }
 
 h4{
-    margin-top: 1em;
+    margin-top: 0.7em;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Open Sans Condensed', sans-serif
 
 }
+
+img{
+    margin-bottom: 1em;
+
+
+}
+
+.ampoule{
+background-image: url("/assets/img/ampoule.gif");
+background-size: 3%;
+background-repeat: no-repeat;
+background-position: 100px 88px;
+
+
+  }
+
 
 
 .about-md{

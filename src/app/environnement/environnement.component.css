@@ -6,7 +6,13 @@ h1{
     h1{
         font-size: 70px;
         font-weight: 300;
+        font-family: 'Bungee Shade', cursive;
+        color: grey;
     }
+}
+
+h2{
+font-family: 'Quicksand', sans-serif;
 }
 
 strong{
@@ -18,10 +24,11 @@ strong{
 p{
     color: white;
     font-size: 15px;
+
 }
 
 hr{
-    border-top: 3px solid #ABDDDE; 
+    border-top: 3px solid #ABDDDE;
     width: 50px;
 }
 
@@ -30,9 +37,22 @@ h3{
     color: white;
     border-bottom: 2px solid #ABDDDE;
     text-decoration-color: #ABDDDE;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .features-icon{
     font-size: 3em;
-    color: #ABDDDE;
+    color: #fff;
+    padding-top: 100%;
 }
+
+section{
+  background-image:url('/assets/img/Banner_0000_section-8.jpg');
+  background-size: contain;
+  padding-bottom: 10%;
+  padding-top:10%;
+  background-repeat: no-repeat;
+
+
+
+  }

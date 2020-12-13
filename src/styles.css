@@ -18,6 +18,26 @@ html, body{
 
 }
 
+.btn-intro:focus, .btn-intro:hover, btn-intro:active {
+    background-color: white;
+    color:black;
+    border-color: #fff;
+    box-shadow: -7px -7px 0px #B7E9E7;
+    border-width: 1px;
+}
+
+.btn-intro{
+    background-color: #B7E9E7;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 0;
+      margin-top: 0.7em;
+      box-shadow: -7px -7px 0px #E6F8F7;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 0.7px;
+
+    }
+
 /*c'est bien ça?? bouton de la bande noir*/
 .btn-green2:focus, .btn-green2:hover, btn-green2:active{
     background-color: #fff !important;
