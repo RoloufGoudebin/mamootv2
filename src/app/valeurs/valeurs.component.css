@@ -1,142 +1,131 @@
-.valeurs{
-    padding-top: 90px;
-    background-image: url("/assets/img/test6bis.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.valeurs {
+  padding-top: 90px;
+  background-image: url("/assets/img/test6bis.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-h1{
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    font-family: 'Bungee Shade', cursive;
-    padding-top: 15%;
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 15%;
 }
 
-h2{
-    text-transform: uppercase;
-    text-align: center;
-    color: black;
-    font-family: 'Bungee Shade', cursive;
-    font-size: 1.5em;
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5em;
 }
 
-h3{
-    text-transform: uppercase;
-    text-align: center;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5em;
-    padding-top: 5%;
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  padding-top: 5%;
+}
 
+h4 {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4em;
+  padding-top: 5%;
+  ;
+}
 
-  }
+p {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+}
 
-  h4{
+ul {
+  ;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+}
 
-      color: black;
-      font-family: 'Quicksand', sans-serif;
-      font-size: 1.4em;
-      padding-top: 5%;;
-
-      }
-
-  p{
-      text-transform: uppercase;
-      text-align: center;
-      color: black;
-      font-family: 'Quicksand', sans-serif;
-      font-size: 1.1em;
-
-    }
-
-
-    ul{;
-      font-family: 'Quicksand', sans-serif;
-      font-size: 1em;
-
-
-      }
-
-
-
-.texte-team{
+.texte-team {
   background-color: black;
   color: white;
 }
 
-.text-white{
-    color: white;
+.text-white {
+  color: white;
 }
 
-strong{
-    color: black;
-    font-style: bold;
+strong {
+  color: black;
+  font-style: bold;
 }
 
-#id_rob{
-background: url("/assets/img/Rob.png");
-background-size:70%;
-background-position: left -10px bottom 0px;
-background-repeat: no-repeat;
+#id_rob {
+  background: url("/assets/img/Rob.png");
+  background-size: 70%;
+  background-position: left -10px bottom 0px;
+  background-repeat: no-repeat;
 }
 
-#id_thom{
-background: url("/assets/img/thom.png");
-background-size:70%;
-background-position: left -70px bottom 0px;
-background-repeat: no-repeat;
+#id_thom {
+  background: url("/assets/img/thom.png");
+  background-size: 70%;
+  background-position: left -70px bottom 0px;
+  background-repeat: no-repeat;
 }
 
-#id_team{
-background: url("/assets/img/team.jpg");
-background-size:90%;
-background-repeat: no-repeat;
-background-position: left 0px bottom 0px;
+#id_team {
+  background: url("/assets/img/team.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: left 0px bottom 0px;
 }
 
-hr{
-    border-top: 3px solid #ABDDDE;
-    width: 50px;
+hr {
+  border-top: 3px solid #ABDDDE;
+  width: 50px;
 }
 
-
-
-.item{
-    background: rgba(75, 221, 222, 0.30) !important;
+.item {
+  background: rgba(75, 221, 222, 0.30) !important;
 }
 
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100% 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0);
 }
 
 .vert .carousel-item-prev,
 .vert .active.carousel-item-left {
--webkit-transform: translate3d(0,-100%, 0);
-        transform: translate3d(0,-100%, 0);
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
 }
 
-.banner h2{
-    text-align: center;
-    font-size: 60px;
-    font-weight: 800;
-    color: white;
+.banner h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
 }
 
-.police{
-    font-family: 'Bungee Shade', cursive;
+.police {
+  font-family: 'Bungee Shade', cursive;
 }
 
-.img-mamoot{
-    padding-bottom: 50%;
+.img-mamoot {
+  padding-bottom: 50%;
 }
