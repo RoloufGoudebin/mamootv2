@@ -12,6 +12,7 @@ h1{
     text-align: center;
     color: white;
     font-family: 'Bungee Shade', cursive;
+    padding-top: 15%;
 }
 
 h2{
@@ -28,22 +29,33 @@ h3{
     color: black;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
+    padding-top: 5%;
 
 
   }
+
+  h4{
+
+      color: black;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.4em;
+      padding-top: 5%;;
+
+      }
 
   p{
       text-transform: uppercase;
       text-align: center;
       color: black;
       font-family: 'Quicksand', sans-serif;
-      font-size: 0,9em;
+      font-size: 1.1em;
 
     }
 
 
-    ul{
-      padding-top: 20%
+    ul{;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1em;
 
 
       }
@@ -60,8 +72,8 @@ h3{
 }
 
 strong{
-    color: #ABDDDE;
-    font-weight: normal;
+    color: black;
+    font-style: bold;
 }
 
 #id_rob{
@@ -76,13 +88,21 @@ background: url("/assets/img/thom.png");
 background-size:70%;
 background-position: left -70px bottom 0px;
 background-repeat: no-repeat;
+}
 
+#id_team{
+background: url("/assets/img/team.jpg");
+background-size:90%;
+background-repeat: no-repeat;
+background-position: left 0px bottom 0px;
 }
 
 hr{
     border-top: 3px solid #ABDDDE;
     width: 50px;
 }
+
+
 
 .item{
     background: rgba(75, 221, 222, 0.30) !important;
