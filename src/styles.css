@@ -60,12 +60,23 @@ html, body{
 
 /*pour la page solution */
 .btn-green3:focus, .btn-green3:hover, btn-green3:active{
-    background-color: #black !important;
+    background-color: #000000 !important;
     color: black;
     opacity: 0.6;
 
 }
+
 .btn-green3 {
     color: black;
 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
