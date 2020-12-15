@@ -23,7 +23,7 @@ strong{
 }
 
 p{
-    color: white;
+    color: black;
     font-size: 15px;
 
 }
@@ -35,7 +35,7 @@ hr{
 
 h3{
     font-size: 22px;
-    color: white;
+    color: black;
     border-bottom: 2px solid #ABDDDE;
     text-decoration-color: #ABDDDE;
     font-family: 'Quicksand', sans-serif;
@@ -43,8 +43,15 @@ h3{
 
 .features-icon{
     font-size: 3em;
-    color: #fff;
-    padding-top: 100%;
+    color: black;
+}
+
+@media screen and (min-width: 1400px){
+    .features-icon{
+        font-size: 3em;
+        color: black;
+        padding-top: 100%;
+    }
 }
 
 section{
