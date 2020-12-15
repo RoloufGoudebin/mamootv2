@@ -22,16 +22,6 @@ h2 {
   padding-bottom: 1%;
 }
 
-<<<<<<< HEAD
-h3 {
-  text-transform: uppercase;
-  text-align: center;
-  color: black;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5em;
-  padding-top: 8px;
-}
-=======
 h3{
     text-transform: uppercase;
     text-align: center;
@@ -65,7 +55,7 @@ h3{
     ul{
       font-family: 'Quicksand', sans-serif;
       font-size: 1em;
->>>>>>> a771618616ddf08390030c99725cbef0383cbcac
+    }
 
 h4 {
   color: black;
@@ -85,7 +75,6 @@ p {
 }
 
 ul {
-  ;
   font-family: 'Quicksand', sans-serif;
   font-size: 1em;
 }
