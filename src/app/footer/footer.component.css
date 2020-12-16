@@ -10,17 +10,7 @@ body {
 .new_footer_top {
     padding: 120px 0px 120px;
     position: relative;
-      overflow-x: hidden;
-}
-.new_footer_area .footer_bottom {
-    padding-top: 5px;
-}
-.footer_bottom {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 20px;
-    color: #7f88a6;
-}
+      overflow-x: hidden;}
 .new_footer_top .company_widget p {
     font-size: 16px;
     font-weight: 300;
@@ -87,18 +77,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-.ti-facebook:before {
-    content: "\e741";
-}
-.ti-twitter-alt:before {
-    content: "\e74b";
-}
-.ti-vimeo-alt:before {
-    content: "\e74a";
-}
-.ti-pinterest:before {
-    content: "\e731";
-}
 
 .btn_get_two {
     -webkit-box-shadow: none;
@@ -131,7 +109,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_18 {
     font-size: 18px;
 }
-h1, h2, h3, h4, h5, h6 {
+h3 {
     color: #4b505e;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {

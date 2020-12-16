@@ -37,14 +37,9 @@ strong{
 
 hr{
     border-top: 3px solid #ABDDDE;
-    width: 50px;
-}
+    width: 50px;}
 
-h5{
-    text-align: center;
-}
-
-.btn{
+    .btn{
     font-size: larger;
     font-weight: 700;
     font-family: 'Quicksand', sans-serif;
