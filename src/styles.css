@@ -60,8 +60,7 @@ html, body{
 
 /*pour la page solution */
 .btn-green3:focus, .btn-green3:hover, btn-green3:active{
-    background-color: #000000 !important;
-    color: black;
+    color: grey;
     opacity: 0.6;
 
 }

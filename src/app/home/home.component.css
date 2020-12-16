@@ -1,5 +1,5 @@
 .bg-intro {
-  background-image: url("/assets/img/agency_bg.jpg");
+  background-image: url("/assets/img/agency_bg.jpg") ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ h1 {
   text-transform: uppercase;
   font-size: 45px;
   letter-spacing: 0.2em;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Shade';
 }
 
 p.seo {
@@ -56,14 +56,14 @@ p.seo {
   color: #fff;
 }
 
-h2 {
+h3 {
   font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
   font-family: 'Bungee Shade', cursive;
 }
 
-h3 {
+h4 {
   margin-top: 1em;
   font-size: 21px;
   font-style: italic;
@@ -71,7 +71,7 @@ h3 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h4 {
+h2 {
   margin-top: 0.7em;
   font-size: 20px;
   font-weight: 600;

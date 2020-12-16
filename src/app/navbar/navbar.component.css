@@ -8,10 +8,10 @@
 
 .nav-item:hover{
     text-decoration: none !important;}
-    
+
 .navbar-brand{
     font-weight: 800;
-    color: #ABDDDE;
+    color: black;
     font-size: 1.8em;
     font-family: 'Bungee Shade', cursive;
 }
