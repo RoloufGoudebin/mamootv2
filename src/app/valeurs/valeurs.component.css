@@ -6,20 +6,23 @@ h1 {
   padding-top: 15%;
 }
 
-h2 {
-  text-transform: uppercase;
-  text-align: center;
-  color: black;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 1.5em;}
 
-h3 {
+h2 {
   text-transform: uppercase;
   text-align: center;
   color: black;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
   padding-top: 5%;}
+
+  
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5em;}
+
 h4 {
   color: black;
   font-family: 'Quicksand', sans-serif;

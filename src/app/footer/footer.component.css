@@ -111,6 +111,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 h3 {
     color: #4b505e;
+    padding-top:2em;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
     color: #6a7695;
