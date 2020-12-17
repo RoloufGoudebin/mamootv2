@@ -3,7 +3,7 @@ h1 {
   text-align: center;
   color: white;
   font-family: 'Bungee Shade', cursive;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 
@@ -15,7 +15,7 @@ h2 {
   font-size: 1.5em;
   padding-top: 5%;}
 
-  
+
 h3 {
   text-transform: uppercase;
   text-align: center;
@@ -64,6 +64,11 @@ strong {
 hr {
   border-top: 3px solid #ABDDDE;
   width: 50px;
+}
+
+hr.empty {
+  height:15px;
+  border-top: 0;
 }
 
 
