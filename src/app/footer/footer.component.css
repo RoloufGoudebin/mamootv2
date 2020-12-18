@@ -109,6 +109,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_18 {
     font-size: 18px;
 }
+
+
+
+
 h3 {
     color: #4b505e;
     padding-top:2em;
@@ -121,7 +125,7 @@ h3 {
 
 
 .new_footer_top .footer_bg .footer_bg_one {
-    background: url("src/assets/img/mamoot-run.gif") no-repeat center center;
+    background: url("src/assets/img/mamoot-run.webp") no-repeat center center;
     width: 330px;
     height: 130px;
     background-size: 100%;
