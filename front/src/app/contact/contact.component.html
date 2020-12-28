@@ -4,32 +4,38 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-lg-5">
+            <div class="mx-auto mt-lg-5">
                 <form id="form" class="topBefore" [formGroup]="form">
 
+                    <small *ngIf="form.get('name').invalid && form.get('name').touched" class="text-danger">Un nom est
+                        requis
+                    </small>
                     <input [class.is-invalid]="form.get('name').invalid && form.get('name').touched"
                         [class.is-valid]="form.get('name').valid && form.get('name').touched" id="name"
                         class="text form-control" type="text" placeholder="NOM" formControlName="name">
+
 
                     <small *ngIf="email.errors?.required && form.get('email').touched" class="text-danger">Une adresse
                         email
                         est requise</small>
                     <small *ngIf="email.errors?.pattern" class="text-danger">Please provide a valid email
                         address</small>
+
                     <input [class.is-invalid]="form.get('email').invalid && form.get('email').touched"
                         [class.is-valid]="form.get('email').valid && form.get('email').touched" id="email"
                         class="text form-control" placeholder="E-MAIL" formControlName="email">
 
-
+                        <small *ngIf="form.get('message').invalid && form.get('message').touched" class="text-danger">Un message est
+                            requis
+                        </small>
                     <textarea [class.is-invalid]="form.get('message').invalid && form.get('message').touched"
                         [class.is-valid]="form.get('message').valid && form.get('message').touched" id="message"
                         class="text form-control" type="text" placeholder="MESSAGE"
                         formControlName="message"></textarea>
 
 
-                    <button id="submit"
-                        [class.is-disabled]="form.get('name').invalid && form.get('name').touched"
-                        class="text form-control" type="text" value="GO!" (click)="register()" formControlName="name">Go!</button>
+                    <button id="submit" [ngClass]="{'disabled': formIsValid === false}" class="text form-control"
+                        type="submit" value="GO!" (click)="register()">GO!</button>
 
                 </form>
             </div>

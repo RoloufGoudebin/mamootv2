@@ -156,12 +156,10 @@ textarea:hover {
   margin: -5px 0px 0px 0px;
 
   font-family: 'Lato', sans-serif;
-  font-display: swap;
   font-size: 0.875em;
   color: #000000;
 
   outline:none;
-  cursor: pointer;
 
   border: solid 1px #000000;
 }
@@ -173,38 +171,39 @@ textarea:hover {
   padding: 0;
   margin: -5px 0px 0px 0px;
 
-  padding-top: 15px;
-  padding-bottom: 15px;
-
   font-family: 'Lato', sans-serif;
-  font-display: swap;
   font-size: 0.875em;
   color: #000000;
 
   outline:none;
-  cursor: pointer;
 
   border: solid 1px #000000;
 }
 }
 
+#submit:hover {
+  color: #ffffff;
+  background:  #E2E9FC;;
+}
+
+
+
+.disabled{
+  background-color: grey;
+  cursor: not-allowed !important;
+}
+
 #submit:hover.disabled {
-  color: #ffffff;
-  background:  grey;
-  cursor: not-allowed;
+  border-color: black;
+  background-color: grey;
+  color: black;
+  cursor: not-allowed !important;
 }
 
-.disabled {
-  color: #ffffff;
-  background:  grey;
-  cursor: not-allowed;
-}
-
-
-
-
-#submit:focus{
-  color: green;
+#submit:focus.disabled {
+  background-color: grey;
+  color: black;
+  cursor: not-allowed !important;
 }
 
 #name.text{

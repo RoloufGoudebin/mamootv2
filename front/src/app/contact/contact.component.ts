@@ -22,13 +22,12 @@ export class ContactComponent implements OnInit {
       Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]),
     name: new FormControl('', [
       Validators.required,
-      Validators.minLength(4)]),
+      Validators.minLength(2)]),
     message: new FormControl('', [
       Validators.required,
       Validators.minLength(4)])
   });
 
-  messageFormControl = new FormControl("", []);
 
 
   register() {
@@ -40,9 +39,11 @@ export class ContactComponent implements OnInit {
       message: form.message
     }
 
+    console.log(this.formIsValid)
+
+
     this.http.post("https://mamoot.be/sendmail", user).subscribe(
       data => {
-        console.log("nameFormControl");
         let res: any = data;
         console.log(
           `👏 > 👏 > 👏 > 👏 ${user} is successfully register and mail has been sent and the message id is ${res.messageId}`
@@ -65,6 +66,10 @@ export class ContactComponent implements OnInit {
 
   get message() {
     return this.form.get('email')
+  }
+
+  get formIsValid(){
+    return this.form.valid
   }
 
 }
