@@ -1,0 +1,98 @@
+.bg-intro {
+  background-image: url("/assets/img/agency_bg.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 45px;
+  letter-spacing: 0.2em;
+  font-family: 'Bungee Shade';
+  font-display: swap;
+}
+
+p.seo {
+  letter-spacing: 0.2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-display: swap;
+}
+
+.services {
+  margin-top: 6em;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 6em;
+  font-display: swap;
+}
+
+.icon-serv {
+  font-size: 3em;
+  margin-bottom: 1em;
+  color: black;
+}
+
+.material-icons {
+  font-size: 3em;
+  margin-bottom: 1em;
+  color: black;
+}
+
+.service-title {
+  border-width: 0.1em !important;
+  margin-bottom: 0.5em !important;
+  border-color: #ABDDDE !important;
+}
+
+.about {
+  border-color: #ABDDDE !important;
+  font-family: 'Quicksand', sans-serif;
+  font-display: swap;
+}
+
+.bg-about {
+  background-image: url("/assets/img/testbis1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Quicksand', sans-serif;
+  font-display: swap;
+}
+
+.black {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-display: swap;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Bungee Shade', cursive;
+  font-display: swap;
+}
+
+h4 {
+  margin-top: 1em;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-display: swap;
+}
+
+h2 {
+  margin-top: 0.7em;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-display: swap;
+}
+
+img {
+  margin-bottom: 1em;
+}

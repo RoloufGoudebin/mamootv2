@@ -1,0 +1,54 @@
+.services{
+    padding-top: 90px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    font-weight: 650;
+    font-size: 1.3em;
+        font-family: 'Quicksand', sans-serif;
+}
+
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.background{
+  background-image:url('/assets/img/phone.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+background-size: 26%;
+padding-left: -30%;
+margin-bottom: -1%;
+
+}
+
+
+
+
+strong{
+    color: #ABDDDE;
+}
+
+hr{
+    border-top: 3px solid #ABDDDE;
+    width: 50px;}
+
+    .btn{
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    font-display: swap;
+}

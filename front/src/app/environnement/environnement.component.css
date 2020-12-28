@@ -1,0 +1,69 @@
+h1{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Bungee Shade', cursive;
+    font-display: swap;
+    color: grey;
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+        font-weight: 300;
+        font-family: 'Bungee Shade', cursive;
+        font-display: swap;
+        color: grey;
+    }
+}
+
+h2{
+font-family: 'Quicksand', sans-serif;
+font-size: 1.3em;
+font-display: swap;
+}
+
+strong{
+    color: #ABDDDE;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+
+}
+
+hr{
+    border-top: 3px solid #ABDDDE;
+    width: 50px;
+}
+
+h3{
+    font-size: 22px;
+    color: black;
+    border-bottom: 2px solid #ABDDDE;
+    text-decoration-color: #ABDDDE;
+    font-family: 'Quicksand', sans-serif;
+    font-display: swap;
+}
+
+.features-icon{
+    font-size: 3em;
+    color: black;
+}
+
+@media screen and (min-width: 1400px){
+    .features-icon{
+        font-size: 3em;
+        color: black;
+        padding-top: 100%;
+    }
+}
+
+section{
+  background-image:url('/assets/img/Banner_0000_section-8.jpg');
+  background-size: contain;
+  padding-bottom: 10%;
+  padding-top:10%;
+  background-repeat: no-repeat; }

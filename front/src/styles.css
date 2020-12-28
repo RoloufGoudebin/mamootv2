@@ -1,0 +1,82 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.btn-green:focus, .btn-green:hover, btn-green:active{
+  background-color: white !important;
+  color:black !important;
+  border-color: black !important;
+  box-shadow: -6px 6px 0px black !important;
+  border-width: 1px !important;
+}
+
+.btn-green{
+    background-color: #B7E9E7 !important;
+    color: black !important;
+    margin-top: 60px !important;
+    margin-bottom: -35px !important;
+    box-shadow: -9px -9px 0px #E6F8F7 !important;
+
+
+}
+
+.btn-intro:focus, .btn-intro:hover, btn-intro:active {
+    background-color: white !important;
+    color:black !important;
+    border-color: #fff;
+    box-shadow: -7px -7px 0px #E6F8F7 !important;
+    border-width: 1px !important;
+}
+
+.btn-intro{
+    background-color: #B7E9E7 !important;
+    color: black !important;
+    font-size: 1.2em !important;
+      margin-top: 0.7em !important;
+      box-shadow: -7px -7px 0px #E6F8F7 !important;
+    font-family: 'Quicksand', sans-serif !important;
+      letter-spacing: 0.7px !important;
+
+    }
+
+/*Home dans bandeau noir*/
+.btn-green2:focus, .btn-green2:hover, btn-green2:active{
+  background-color: white !important;
+  color:black !important;
+  border-color: #B7E9E7 !important;
+  box-shadow: -9px -9px 0px #B7E9E7 !important;
+  border-width: 1px !important;
+}
+.btn-green2{
+  background-color: #B7E9E7 !important;
+  color: black !important;
+    margin-top: 1.9em !important;
+    box-shadow: -9px -9px 0px #E6F8F7 !important;
+    letter-spacing: 0.7px !important;
+
+}
+
+
+/*pour la page solution */
+.btn-green3:focus, .btn-green3:hover, btn-green3:active{
+    color: grey !important;
+    opacity: 0.6 !important;
+
+}
+
+.btn-green3 {
+    color: black !important;
+
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

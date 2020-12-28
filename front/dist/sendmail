@@ -1,0 +1,14 @@
+upstream sendmail {
+    server localhost:3000;
+}
+
+server {
+
+    listen 463;
+
+    location /sendmail {
+        proxy_pass http://sendmail;
+        proxy_redirect  http://sendmail/ /;
+        proxy_read_timeout 60s;
+    }
+}

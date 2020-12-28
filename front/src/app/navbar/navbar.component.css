@@ -1,0 +1,25 @@
+.nav-item > a{
+    margin-left: 2.2em;
+    text-transform: uppercase;
+    color: black;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 0.1em;
+      font-display: swap;
+    
+}
+
+.nav-item:hover{
+    text-decoration: none !important;}
+
+.navbar-brand{
+    font-weight: 800;
+    color: black;
+    font-size: 1.8em;
+    font-family: 'Bungee Shade', cursive;
+    font-display: swap;
+}
+
+
+.oi{
+    color: black;
+}
