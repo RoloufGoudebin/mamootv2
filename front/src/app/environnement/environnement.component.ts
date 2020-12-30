@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-environnement',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnvironnementComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService:Title) { 
+    this.titleService.setTitle("Mamoot X Planet");
+  }
 
   ngOnInit() {
     this.loadScript('../assets/js/main.js')

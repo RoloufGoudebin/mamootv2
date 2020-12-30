@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, setTestabilityGetter } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormControl, Validators, FormGroup, Form } from "@angular/forms";
+import { Title } from '@angular/platform-browser';
 
 
 @Component({
@@ -10,12 +11,13 @@ import { FormControl, Validators, FormGroup, Form } from "@angular/forms";
 })
 export class ContactComponent implements OnInit {
 
-  constructor(public http: HttpClient) { }
+  constructor(public http: HttpClient, private titleService:Title) { 
+    this.titleService.setTitle("Contact");
+  }
 
   ngOnInit(): void {
   }
 
-  title = 'email-validation-tutorial';
   form = new FormGroup({
     email: new FormControl('', [
       Validators.required,
@@ -27,6 +29,8 @@ export class ContactComponent implements OnInit {
       Validators.required,
       Validators.minLength(4)])
   });
+
+  
 
 
 

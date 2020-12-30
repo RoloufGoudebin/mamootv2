@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mamootv2';
+  title = 'Mamoot';
 
   ngOnInit() {
     this.loadScript('../assets/js/jquery.min.js');
@@ -22,6 +23,10 @@ export class AppComponent {
     script.async = false;
     script.defer = true;
     body.appendChild(script);
+  }
+
+  constructor(private titleService:Title) { 
+    this.titleService.setTitle("Mamoot");
   }
 
 }
