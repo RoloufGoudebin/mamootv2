@@ -27,7 +27,7 @@ p {
 }
 
 .background {
-  background-image: url('/assets/img/phone.png');
+  background-image: url('/assets/img/phone.webp');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 26%;
