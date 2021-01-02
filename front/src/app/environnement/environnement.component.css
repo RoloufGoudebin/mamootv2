@@ -3,16 +3,16 @@ h1{
     font-weight: 300;
     font-family: 'Bungee Shade', cursive;
     font-display: swap;
-    color: grey;
+    color: black;
 }
 
 @media screen and (min-width: 768px){
     h1{
         font-size: 70px;
-        font-weight: 300;
+        font-weight: 800;
         font-family: 'Bungee Shade', cursive;
         font-display: swap;
-        color: grey;
+        color: black;
     }
 }
 
@@ -23,7 +23,7 @@ font-display: swap;
 }
 
 strong{
-    color: #ABDDDE;
+    color: #99D655;
     font-weight: normal;
     letter-spacing: 0.2rem;
 }
@@ -67,3 +67,10 @@ section{
   padding-bottom: 10%;
   padding-top:10%;
   background-repeat: no-repeat; }
+
+  img{
+    height:25%;
+    width:25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }

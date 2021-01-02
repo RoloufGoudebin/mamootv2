@@ -5,11 +5,12 @@
       font-family: 'Open Sans Condensed', sans-serif;
       letter-spacing: 0.1em;
       font-display: swap;
-    
+
 }
 
 .nav-item:hover{
-    text-decoration: none !important;}
+    text-decoration: none !important;
+}
 
 .navbar-brand{
     font-weight: 800;
@@ -22,4 +23,19 @@
 
 .oi{
     color: black;
+}
+
+
+
+
+.nav-link:hover{
+  color: grey;
+}
+
+#black{
+  color:black;
+}
+
+#black:hover {
+  color: grey;
 }

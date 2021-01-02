@@ -8,12 +8,16 @@ import { Title } from '@angular/platform-browser';
 })
 export class ValeursComponent implements OnInit {
 
-  constructor(private titleService:Title) { 
+
+
+
+  constructor(private titleService:Title) {
     this.titleService.setTitle("Nos Valeurs");
   }
 
   ngOnInit() {
     this.loadScript('../assets/js/main.js')
+
   }
 
   public loadScript(url: string) {
