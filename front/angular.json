@@ -25,7 +25,9 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/icon/icomoon/style.css"
+              "src/assets/css/icon/icomoon/style.css",
+              "src/assets/css/bootstrap.min.css"
+
             ],
             "scripts": []
           },

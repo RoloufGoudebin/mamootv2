@@ -19,15 +19,4 @@ export class HomeComponent implements OnInit {
     console.log($element);
     $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
-
-  public loadScript(url: string) {
-    const body = <HTMLDivElement>document.body;
-    const script = document.createElement('script');
-    script.innerHTML = '';
-    script.src = url;
-    script.async = false;
-    script.defer = true;
-    body.appendChild(script);
-  }
-
 }

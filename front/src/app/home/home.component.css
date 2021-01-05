@@ -1,7 +1,3 @@
-.fullheight {
-  min-height: 100vh;
-}
-
 .bg-intro {
   background-image: url("/assets/img/agency_bg.jpg") ;
   background-position: center;
@@ -59,7 +55,7 @@ p.seo {
 
 
 .bg-about {
-  background-image: url("/assets/img/promo-min.png");
+  background-image: url("/assets/img/testbis1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

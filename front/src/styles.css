@@ -10,6 +10,10 @@ html, body{
     margin: 0;
 }
 
+.fullheight {
+  min-height: 100vh;
+}
+
 
 .btn-green:focus, .btn-green:hover, btn-green:active{
   background-color: white !important;

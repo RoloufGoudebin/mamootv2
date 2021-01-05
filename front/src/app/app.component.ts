@@ -12,8 +12,6 @@ export class AppComponent {
   ngOnInit() {
     this.loadScript('../assets/js/jquery.min.js');
     this.loadScript('../assets/js/bootstrap.min.js');
-    this.fullHeight();
-
   }
 
   public loadScript(url: string) {
@@ -25,15 +23,6 @@ export class AppComponent {
     script.defer = true;
     body.appendChild(script);
   }
-
-  public fullHeight() {
-
-    $('.js-fullheight').css('height', $(window).height());
-    $(window).resize(function () {
-      $('.js-fullheight').css('height', $(window).height());
-    });
-
-  };
 
   constructor(private titleService: Title) {
     this.titleService.setTitle("Mamoot");
