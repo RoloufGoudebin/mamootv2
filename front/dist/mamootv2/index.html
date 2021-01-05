@@ -1,5 +1,88 @@
 <!doctype html>
-<html lang="fr">
+
+<link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+<!--load spinner maggle-->
+<style type="text/css">
+  body,
+  html {
+    height: 100%;
+  }
+
+  .app-loading {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .app-loading .spinner {
+    height: 200px;
+    width: 200px;
+    animation: rotate 1s linear infinite;
+    transform-origin: center center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .app-loading .spinner .path {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: dash 1.5s ease-in-out infinite;
+    stroke-linecap: round;
+    stroke: #ddd;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35px;
+    }
+
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124px;
+    }
+  }
+</style>
+<link rel="stylesheet" href="styles.3296203f8204d3991bb0.css"></head>
+
+<body>
+  <app-root>
+    <!-- selector from app.component.ts -->
+
+    <!-- loading layout replaced by app after startupp -->
+    <div class="app-loading">
+      <div class="logo"></div>
+      <svg class="spinner" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+      </svg>
+    </div>
+
+  </app-root>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.c036c089e5e061e8f4ce.js" nomodule defer></script><script src="polyfills-es2015.2320f4dbebd0efa7fb56.js" type="module"></script><script src="main-es2015.cda777eeb22356a5c6ae.js" type="module"></script><script src="main-es5.cda777eeb22356a5c6ae.js" nomodule defer></script></body>
+
+</html>
+
 
 
 <head>
@@ -11,14 +94,4 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-
-
-<link rel="stylesheet" href="styles.5c553d108e1070bfe494.css"></head>
-
-<body>
-  <app-root>
-</app-root>
-
-<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.dea0a54ab404f956923d.js" nomodule defer></script><script src="polyfills-es2015.49e523b6bf987679196a.js" type="module"></script><script src="main-es2015.a8cd6a58124d3097adfa.js" type="module"></script><script src="main-es5.a8cd6a58124d3097adfa.js" nomodule defer></script></body>
-
-</html>
+</head>

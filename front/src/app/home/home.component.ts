@@ -13,7 +13,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.loadScript('../assets/js/main.js')
   }
 
     scrollToElement($element): void {

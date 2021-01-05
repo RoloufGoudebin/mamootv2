@@ -1,16 +1,4 @@
 {
-  "...": "heavily reduced for brevity",
-  "apps": [
-    {
-      "styles": [
-        "styles-app-loading.scss",
-        "styles.scss"
-      ]
-    }
-  ]
-},
-
-{
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
@@ -37,10 +25,9 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/icon/et-line-font.css"
+              "src/assets/css/icon/icomoon/style.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {

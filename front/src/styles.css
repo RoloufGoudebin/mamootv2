@@ -1,7 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap);
+
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
 }
+
 
 .btn-green:focus, .btn-green:hover, btn-green:active{
   background-color: white !important;
@@ -83,6 +91,6 @@ html, body{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
+
+
+
