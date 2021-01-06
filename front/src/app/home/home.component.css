@@ -55,7 +55,7 @@ p.seo {
 
 
 .bg-about {
-  background-image: url("/assets/img/testbis1.png");
+  background-image: url("/assets/img/mamootmobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -64,7 +64,7 @@ p.seo {
 }
 @media screen and (min-width : 768px) {
   .bg-about{
-  background-image: url("/assets/img/testbis1.png") !important;
+  background-image: url("/assets/img/mamoothome.jpg") !important;
   }
 }
 

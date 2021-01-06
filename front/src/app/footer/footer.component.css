@@ -41,11 +41,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     outline: none;
 }
 
-
-
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
     color: #5e2ced;
 }
+
 .new_footer_top .f_widget.about-widget .f_list li {
     margin-bottom: 11px;
 }
