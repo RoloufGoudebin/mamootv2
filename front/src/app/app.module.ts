@@ -40,13 +40,4 @@ import { FooterComponent } from './footer/footer.component';
 })
 
 export class AppModule { 
-  public fullHeight() {
-
-    $('.js-fullheight').css('height', $(window).height());
-    $(window).resize(function () {
-      $('.js-fullheight').css('height', $(window).height());
-    });
-
-  };
-  
 }
