@@ -14,12 +14,13 @@ h1 {
   font-display: swap;
 }
 
-p.seo {
-  letter-spacing: 0.2em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  font-display: swap;
+.icon {
+  width: 18%;
+}
+@media (max-width: 800px) {
+  .icon {
+   max-width: 10%;
+  }
 }
 
 .services {
@@ -29,17 +30,8 @@ p.seo {
   font-display: swap;
 }
 
-.icon-serv {
-  font-size: 3em;
-  margin-bottom: 1em;
-  color: black;
-}
 
-.material-icons {
-  font-size: 3em;
-  margin-bottom: 1em;
-  color: black;
-}
+
 
 .service-title {
   border-width: 0.1em !important;
